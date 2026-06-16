@@ -56,7 +56,7 @@ State actionable insights for the manufacturer and consumers:
 - The manufacturer needs to consider engine efficiency, size of the car, body type, and fuel efficiency when placing the car in various pricing tiers.
 - Consumers will be able to determine if the price of a car is reasonable given the car's technical aspects.
 
-
+This project is for educational purposes. The dataset is publicly available and used for learning machine learning workflows.
 
 
 
