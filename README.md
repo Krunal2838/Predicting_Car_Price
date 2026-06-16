@@ -74,6 +74,16 @@ Plot feature importance for Random Forest to determine the top contributing pred
 
 Top Features: engine size (46.6%), curb weight (36.5%), highway mpg (6.9%), etc.
 
+### Business Insights
+
+State actionable insights for the manufacturer and consumers:
+
+- Increased engine displacement, higher curb weight, and larger horsepower will result in increased pricing.
+- Fuel economy also comes into play because lower mpg usually indicates that the car will be larger and have greater power.
+- The manufacturer needs to consider engine efficiency, size of the car, body type, and fuel efficiency when placing the car in various pricing tiers.
+- Consumers will be able to determine if the price of a car is reasonable given the car's technical aspects.
+
+
 
 
 
