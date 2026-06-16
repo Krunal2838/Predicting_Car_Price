@@ -3,13 +3,13 @@ In this repository, there is an entire end-to-end machine learning project desig
 ## Overview
 The first objective of this project is to build a regression model that can predict the price of a vehicle through features like engine size, curb weight, horsepower, and fuel consumption rate. The second objective of the study is to create price category groups of vehicles using logistic regression analysis.
 ### Key Features:
-- **EDA**: Distribution analysis, correlation heatmap, and statistical summary.
-- Data Preprocessing: Dealing with missing data through mean/mode imputation.
-- Feature Engineering: Binning horsepower, normalize the length, and convert MPG to L/100km.
-- Regression Modeling: Perform linear regression analysis, random forest model evaluation on various split ratios.
-- Classification Modeling: Logistic regression analysis for price classification.
-- Model Evaluation: Measure using r-squared, MAE, MSE, RMSE, accuracy and confusion matrix.
-- Business Insights:  Identification of key price-influencing features  and provide relevant advice.
+- **EDA :** Distribution analysis, correlation heatmap, and statistical summary.
+- **Data Preprocessing :** Dealing with missing data through mean/mode imputation.
+- **Feature Engineering :** Binning horsepower, normalize the length, and convert MPG to L/100km.
+- **Regression Modeling :** Perform linear regression analysis, random forest model evaluation on various split ratios.
+- **Classification Modeling :** Logistic regression analysis for price classification.
+- **Model Evaluation :** Measure using r-squared, MAE, MSE, RMSE, accuracy and confusion matrix.
+- **Business Insights :** Identification of key price-influencing features  and provide relevant advice.
 
 ## Dataset
 The database employed for this analysis is the Automobile Data Set available on the UCI Machine Learning Repository accessed through IBM Developer Skills Network. The data set comprises 205 observations and 26 variables which include the following characteristics about cars:
