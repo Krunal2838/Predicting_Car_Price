@@ -56,4 +56,16 @@ Model Performance Measures: R², MAE, MSE, RMSE.
 
 Important Note: Random Forest performs better than Linear Regression.
 
+### Classification Model
+
+Classify prices into three classes, Low, Medium, and High using quantiles binning.
+
+Train a Logistic Regression algorithm with the normalized input features.
+
+Evaluation Measures Accuracy, Classification Report and Confusion Matrix.
+
+Classification Accuracy: ~80%.
+
+
+
 
