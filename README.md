@@ -66,6 +66,14 @@ Evaluation Measures Accuracy, Classification Report and Confusion Matrix.
 
 Classification Accuracy: ~80%.
 
+### Actual v. Predicted Plot 
+
+Scatter plot showing actual and predicted prices for the best Random Forest regression (80/20 train/test ratio). 
+
+Plot feature importance for Random Forest to determine the top contributing predictors.
+
+Top Features: engine size (46.6%), curb weight (36.5%), highway mpg (6.9%), etc.
+
 
 
 
