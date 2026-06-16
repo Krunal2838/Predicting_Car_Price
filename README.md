@@ -38,3 +38,10 @@ Plot distribution of price and horse power. Plot boxplot of price according to b
 
 Generate correlation matrix plot of numerical variables.
 
+### Data Cleaning and Feature Engineering
+
+Imputation of missing values in numeric columns using their mean and in categorical columns using their modes.
+
+Change data type of “price” and “horsepower” to numeric.
+
+Create new features: “city-L/100km”, “horsepower-binned” [Low / Medium / High] and “length normalized”.
