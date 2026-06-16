@@ -27,3 +27,14 @@ Efficiency Features: city-mpg, highway-mpg
 Categorical Features: make, fuel-type, body-style, drive-wheels, etc.
 
 Target Feature: price (continuous)
+
+### Tasks Performed
+## Loading Dataset and EDA
+The dataset is loaded from a URL. Columns are named appropriately.
+
+Conduct preliminary data analysis including shape, data types, missing values, and unique value counts in categorical variables.
+
+Plot distribution of price and horse power. Plot boxplot of price according to body style.
+
+Generate correlation matrix plot of numerical variables.
+
