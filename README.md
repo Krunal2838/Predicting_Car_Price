@@ -3,8 +3,7 @@ In this repository, there is an entire end-to-end machine learning project desig
 ## Overview
 The first objective of this project is to build a regression model that can predict the price of a vehicle through features like engine size, curb weight, horsepower, and fuel consumption rate. The second objective of the study is to create price category groups of vehicles using logistic regression analysis.
 ### Key Features:
-### EDA: 
-Distribution analysis, correlation matrix, and statistical summary.
+### **EDA**: Distribution analysis, correlation matrix, and statistical summary.
 
 Data Preprocessing: Dealing with missing data through mean/mode imputation.
 
