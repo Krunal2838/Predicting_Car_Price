@@ -20,54 +20,35 @@ The database employed for this analysis is the Automobile Data Set available on 
 
 ## Tasks Performed
 ### Loading Dataset and EDA
-The dataset is loaded from a URL. Columns are named appropriately.
-
-Conduct preliminary data analysis including shape, data types, missing values, and unique value counts in categorical variables.
-
-Plot distribution of price and horse power. Plot boxplot of price according to body style.
-
-Generate correlation matrix plot of numerical variables.
+- The dataset is loaded from a URL. Columns are named appropriately.
+- Conduct preliminary data analysis including shape, data types, missing values, and unique value counts in categorical variables.
+- Plot distribution of price and horse power. Plot boxplot of price according to body style.
+- Generate correlation matrix plot of numerical variables.
 
 ### Data Cleaning and Feature Engineering
-
-Imputation of missing values in numeric columns using their mean and in categorical columns using their modes.
-
-Change data type of “price” and “horsepower” to numeric.
-
-Create new features: “city-L/100km”, “horsepower-binned” [Low / Medium / High] and “length normalized”.
+- Imputation of missing values in numeric columns using their mean and in categorical columns using their modes.
+- Change data type of “price” and “horsepower” to numeric.
+- Create new features: “city-L/100km”, “horsepower-binned” [Low / Medium / High] and “length normalized”.
 
 ### Regression Models
-
-Train Linear Regression and Random Forest Regressor on selected features.
-
-Test model performance using 80-20 and 70-30 split train-test datasets.
-
-Model Performance Measures: R², MAE, MSE, RMSE.
-
-Important Note: Random Forest performs better than Linear Regression.
+- Train Linear Regression and Random Forest Regressor on selected features.
+- Test model performance using 80-20 and 70-30 split train-test datasets.
+- Model Performance Measures: R², MAE, MSE, RMSE.
+- Important Note: Random Forest performs better than Linear Regression.
 
 ### Classification Model
-
-Classify prices into three classes, Low, Medium, and High using quantiles binning.
-
-Train a Logistic Regression algorithm with the normalized input features.
-
-Evaluation Measures Accuracy, Classification Report and Confusion Matrix.
-
-Classification Accuracy: ~80%.
+- Classify prices into three classes, Low, Medium, and High using quantiles binning.
+- Train a Logistic Regression algorithm with the normalized input features.
+- Evaluation Measures Accuracy, Classification Report and Confusion Matrix.
+- Classification Accuracy: ~80%.
 
 ### Actual v. Predicted Plot 
-
-Scatter plot showing actual and predicted prices for the best Random Forest regression (80/20 train/test ratio). 
-
-Plot feature importance for Random Forest to determine the top contributing predictors.
-
-Top Features: engine size (46.6%), curb weight (36.5%), highway mpg (6.9%), etc.
+- Scatter plot showing actual and predicted prices for the best Random Forest regression (80/20 train/test ratio).
+- Plot feature importance for Random Forest to determine the top contributing predictors.
+- Top Features: engine size (46.6%), curb weight (36.5%), highway mpg (6.9%), etc.
 
 ### Business Insights
-
 State actionable insights for the manufacturer and consumers:
-
 - Increased engine displacement, higher curb weight, and larger horsepower will result in increased pricing.
 - Fuel economy also comes into play because lower mpg usually indicates that the car will be larger and have greater power.
 - The manufacturer needs to consider engine efficiency, size of the car, body type, and fuel efficiency when placing the car in various pricing tiers.
