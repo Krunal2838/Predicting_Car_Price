@@ -45,3 +45,15 @@ Imputation of missing values in numeric columns using their mean and in categori
 Change data type of “price” and “horsepower” to numeric.
 
 Create new features: “city-L/100km”, “horsepower-binned” [Low / Medium / High] and “length normalized”.
+
+### Regression Models
+
+Train Linear Regression and Random Forest Regressor on selected features.
+
+Test model performance using 80-20 and 70-30 split train-test datasets.
+
+Model Performance Measures: R², MAE, MSE, RMSE.
+
+Important Note: Random Forest performs better than Linear Regression.
+
+
