@@ -18,7 +18,7 @@ The database employed for this analysis is the Automobile Data Set available on 
 - **Categorical Features:** make, fuel-type, body-style, drive-wheels, etc.
 - **Target Feature:** price (continuous)
 
- To view and run the notebook using Google Colab or Jupyter Notebook.
+ To view and run the notebook using Jupyter Notebook.
 
 ## Tasks Performed
 ### Loading Dataset and EDA
