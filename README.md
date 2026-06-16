@@ -15,4 +15,4 @@ Classification Modeling: Logistic regression analysis for price classification.
 
 Model Evaluation: Measure using r-squared, MAE, MSE, RMSE, accuracy and confusion matrix.
 
-Business Insights: Determine influential price determining features and provide relevant advice.
+Business Insights:  Identification of key price-influencing features  and provide relevant advice.
