@@ -16,3 +16,14 @@ Classification Modeling: Logistic regression analysis for price classification.
 Model Evaluation: Measure using r-squared, MAE, MSE, RMSE, accuracy and confusion matrix.
 
 Business Insights:  Identification of key price-influencing features  and provide relevant advice.
+
+## Dataset
+The database employed for this analysis is the Automobile Data Set available on the UCI Machine Learning Repository accessed through IBM Developer Skills Network. The data set comprises 205 observations and 26 variables which include the following characteristics about cars:
+
+Technical Features: engine-size, horsepower, curb-weight, wheel-base, etc.
+
+Efficiency Features: city-mpg, highway-mpg
+
+Categorical Features: make, fuel-type, body-style, drive-wheels, etc.
+
+Target Feature: price (continuous)
