@@ -28,8 +28,8 @@ Categorical Features: make, fuel-type, body-style, drive-wheels, etc.
 
 Target Feature: price (continuous)
 
-### Tasks Performed
-## Loading Dataset and EDA
+## Tasks Performed
+### Loading Dataset and EDA
 The dataset is loaded from a URL. Columns are named appropriately.
 
 Conduct preliminary data analysis including shape, data types, missing values, and unique value counts in categorical variables.
