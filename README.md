@@ -13,8 +13,7 @@ The first objective of this project is to build a regression model that can pred
 
 ## Dataset
 The database employed for this analysis is the Automobile Data Set available on the UCI Machine Learning Repository accessed through IBM Developer Skills Network. The data set comprises 205 observations and 26 variables which include the following characteristics about cars:
-
-Technical Features: engine-size, horsepower, curb-weight, wheel-base, etc.
+-Technical Features: engine-size, horsepower, curb-weight, wheel-base, etc.
 
 Efficiency Features: city-mpg, highway-mpg
 
