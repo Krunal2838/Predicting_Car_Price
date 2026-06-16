@@ -16,8 +16,7 @@ The database employed for this analysis is the Automobile Data Set available on 
 - Technical Features: engine-size, horsepower, curb-weight, wheel-base, etc.
 - Efficiency Features: city-mpg, highway-mpg
 - Categorical Features: make, fuel-type, body-style, drive-wheels, etc.
-
-Target Feature: price (continuous)
+- Target Feature: price (continuous)
 
 ## Tasks Performed
 ### Loading Dataset and EDA
