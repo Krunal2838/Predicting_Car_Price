@@ -1,1 +1,2 @@
 # Predicting_Car_Price
+In this repository, there is an entire end-to-end machine learning project designed to predict prices of automobiles. This project utilizes a common approach adopted within data science, which involves importing, analyzing, cleaning, processing, building models, and extracting insights from the data. The project utilizes a public dataset on automobiles and comprises both regression and classification problems.
